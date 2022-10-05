@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: gray;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+}
+
+h3 {
+    color: rgb(214, 169, 111);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-me{
+    padding: 20px 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.header-me__photo{
+    display: flex;
+    margin-right: 100px;
+    flex-direction: column;
+}
+
+.my-foto {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+.header-me__about {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    color:blue;
+}
+
+.header-me__about__information {
+    display: flex;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: justify;
+    margin-bottom: 35px;
+}
+
+.header-me__about_another{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.gray {
+    color: gray;
+}
+
+.first-contact {
+    display: flex;
+    gap: 5px 0px; 
+    flex-direction:column;   
+}
+.second-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0px; 
+}
+
+.downald {
+    height: 60px;
+    border-radius: 60px;
+    border-color: gray;
+}
+
+.Skill {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.my-skills {
+    display: flex;
+}
+.professional-skills {
+    padding: 20px 20px;
+    width: 400px;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 40px;
+    flex-direction: column;
+}
+
+.additional-skills {
+    padding: 20px 20px;
+    width: 400px;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 40px;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.text-skills-text {
+    padding-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+}
