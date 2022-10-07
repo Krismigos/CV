@@ -98,6 +98,7 @@ a {
 .downald:hover {
   border-color: red;
   background-color: red;
+  transition: 1.5s;
 }
 
 .skill {
