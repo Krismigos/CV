@@ -11,6 +11,34 @@
     <title>My CV</title>
 </head>
 <body>
+    <nav>
+        <ul class="nav-list">
+          <li class="list-item"><a class="link" href="#">Home</a></li>
+          <li class="list-item"><a class="link" href="#">WordPress</a></li>
+          <li class="list-item"><a class="link" href="#">Web Designer...</a>
+            <ul class="sub-nav-list">
+                <li class="sub-nav-list-item"><a href="#" class="link">Resources</a></li>
+                <li class="sub-nav-list-item"><a href="#" class="link">Links</a></li>
+                <li class="sub-nav-list-item tutor"><a href="#" class="link">Tutorials...</a>
+                  <ul class="sub-nav-tutorials">
+                      <li class="sub-nav-list-tutorials"><a href="#" class="link">HTML/CSS</a></li>
+                      <li class="sub-nav-list-tutorials"><a href="#" class="link">jQuery</a></li>
+                      <li class="sub-nav-list-tutorials other"><a href="#" class="link">Other...</a>
+                        <ul class="sub-nav-other">
+                            <li class="sub-nav-list-other"><a href="#" class="link">Stuff</a></li>
+                            <li class="sub-nav-list-other"><a href="#" class="link">Things</a></li>
+                            <li class="sub-nav-list-other"><a href="#" class="link">Other Stuff</a>
+                        </ul></li>
+                  </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="list-item"><a class="link" href="#">Graphic Designer</a></li>
+          <li class="list-item"><a class="link" href="#">Inspiration</a></li>
+          <li class="list-item"><a class="link" href="#">Contact</a></li>
+          <li class="list-item"><a class="link" href="#">About</a></li>
+        </ul>
+      </nav>  
     <div class="header-me">
         <div class="header-me__photo">
             <img src="./img/me.jpg" class="my-foto" alt="me">
@@ -51,12 +79,13 @@
         </div>
 
         <div class="additional-skills">
-            <div class="text-skills-a"></div>
-            <p class="text-skills-text"><input type="checkbox" checked> Communication</p>
-            <p class="text-skills-text"><input type="checkbox" checked> Customer service</p>
-            <p class="text-skills-text"><input type="checkbox" checked> Teamwork</p>
-            <p class="text-skills-text"><input type="checkbox" checked> Leadership</p>
-            <p class="text-skills-text"><input type="checkbox" checked> Customer service</p>
+                <ul>
+                    <li class="addition-skills-list"><input type="checkbox" checked> Communication</li>
+                    <li class="addition-skills-list"><input type="checkbox" checked> Customer service</li>
+                    <li class="addition-skills-list"><input type="checkbox" checked> Teamwork</li>
+                    <li class="addition-skills-list"><input type="checkbox" checked> Leadership</li>
+                    <li class="addition-skills-list"><input type="checkbox" checked> Customer service</li>
+                </ul>
         </div>
     </div>
 </body>

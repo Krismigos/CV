@@ -29,6 +29,100 @@ a {
   color: black;
 }
 
+li,
+ul {
+  list-style-type: none;
+}
+
+/*NAVIGATION*/
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 40px;
+  box-shadow: 5px 5px 8px 5px #888888;
+}
+
+.list-item {
+  position: relative;
+  padding: 10px 20px;
+}
+
+.link {
+  font-size: 20px;
+}
+
+.sub-nav-list {
+  position: absolute;
+  display: block;
+  background-color: white;
+}
+
+.sub-nav-list-item {
+  display: none;
+}
+
+.list-item:hover .sub-nav-list-item {
+  background-color: #bebebe;
+  display: block;
+  padding: 10px 20px;
+}
+
+/* Tuthors*/
+.sub-nav-tutorials {
+  position: absolute;
+  left: 100%;
+  display: block;
+  background-color: white;
+  padding-left: 1px;
+  top: 115px;
+}
+.sub-nav-list-tutorials {
+  display: none;
+}
+.tutor:hover .sub-nav-list-tutorials {
+  background-color: #bebebe;
+  display: block;
+  padding: 10px 20px;
+}
+/* Others*/
+
+.sub-nav-other {
+  position: absolute;
+  left: 100%;
+  display: block;
+  background-color: white;
+  padding-left: 1px;
+  top: 115px;
+}
+.sub-nav-list-other {
+  display: none;
+}
+.other:hover .sub-nav-list-other {
+  background-color: #bebebe;
+  width: 150px;
+  display: block;
+  padding: 10px 20px;
+}
+
+/* HOVER*/
+
+.list-item:hover {
+  background-color: rgb(165, 165, 172);
+  transition: 0.5s;
+}
+.list-item:first-child {
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+}
+.list-item:last-child {
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+/* END NAVIGATION*/
+
 .header-me {
   padding: 20px 20px;
   display: flex;
@@ -104,12 +198,12 @@ a {
 }
 
 .skill {
-    display: block;
-    text-align: center;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 10px 10px 8px 10px #888888;
-    margin: 50px 0;
+  display: block;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 8px 10px #888888;
+  margin: 50px 0;
 }
 
 .my-skills {
@@ -129,8 +223,8 @@ a {
   box-shadow: 10px 10px 8px 10px #888888;
 }
 
-.text-skills-text {
-  padding-bottom: 10px;
+.addition-skills-list{
+  padding-bottom: 20px;
 }
 
 input[type="checkbox"] {
