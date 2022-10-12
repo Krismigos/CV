@@ -55,55 +55,52 @@ ul {
 
 .sub-nav-list {
   position: absolute;
-  display: block;
+  display: none;
+  top: 50px;
   background-color: white;
+  border: 2px solid brown;
 }
 
 .sub-nav-list-item {
-  display: none;
+  padding: 10px 10px;
 }
 
-.list-item:hover .sub-nav-list-item {
+.list-item:hover .sub-nav-list{
   background-color: #bebebe;
-  display: block;
-  padding: 10px 20px;
+  display: block; 
 }
 
 /* Tuthors*/
 .sub-nav-tutorials {
+  display: none;
   position: absolute;
   left: 100%;
-  display: block;
   background-color: white;
-  padding-left: 1px;
-  top: 115px;
+  border: 2px solid brown;
 }
 .sub-nav-list-tutorials {
-  display: none;
+  padding: 10px 20px;
 }
-.tutor:hover .sub-nav-list-tutorials {
+.tutor:hover .sub-nav-tutorials {
   background-color: #bebebe;
   display: block;
-  padding: 10px 20px;
 }
 /* Others*/
 
 .sub-nav-other {
+  display: none;
   position: absolute;
   left: 100%;
-  display: block;
   background-color: white;
-  padding-left: 1px;
-  top: 115px;
+  border: 2px solid brown;
 }
 .sub-nav-list-other {
-  display: none;
+  padding: 10px 20px;
 }
-.other:hover .sub-nav-list-other {
+.other:hover .sub-nav-other {
   background-color: #bebebe;
   width: 150px;
   display: block;
-  padding: 10px 20px;
 }
 
 /* HOVER*/
